@@ -1,0 +1,14 @@
+
+V_____
+111101
+0 state1 - 1 state2
+
+_V____
+111101
+1 state2 - 1 state1
+
+__V___
+11!101
+1 state1 - ! state1
+
+

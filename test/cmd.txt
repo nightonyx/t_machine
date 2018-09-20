@@ -1,0 +1,10 @@
+
+
+
+1 state1 - ! state1 S
+
+0 state1 - 1 state2 R
+
+1 state2 - 1 state1 R
+
+

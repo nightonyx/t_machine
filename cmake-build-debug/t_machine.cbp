@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="t_machine"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/anton/Desktop/t_machine-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t_machine">
+				<Option output="C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/t_machine.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/anton/Desktop/t_machine-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/anton/Desktop/t_machine-master/headers"/>
+					<Add directory="C:/Users/anton/Desktop/t_machine-master/lib4aio"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 t_machine"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t_machine/fast">
+				<Option output="C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/t_machine.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/anton/Desktop/t_machine-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/anton/Desktop/t_machine-master/headers"/>
+					<Add directory="C:/Users/anton/Desktop/t_machine-master/lib4aio"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 t_machine/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/anton/Desktop/t_machine-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/anton/Desktop/t_machine-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/anton/Desktop/t_machine-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/headers/t_command.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/headers/t_core.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/headers/t_iterator.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/headers/t_message.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/headers/t_tape.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_headers/utils/error_utils/error_utils.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_headers/utils/file_utils/file_utils.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_headers/utils/log_utils/log_utils.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_headers/utils/memory_utils/memory_utils.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_headers/utils/str_builder/str_builder.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_headers/utils/str_hook/str_hook.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_headers/utils/string_utils/common.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_headers/utils/struct_list/struct_list.h">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_sources/utils/error_utils/error_utils.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_sources/utils/file_utils/file_utils.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_sources/utils/log_utils/log_utils.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_sources/utils/memory_utis/memory_utils.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_sources/utils/str_builder/str_builder.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_sources/utils/str_hook/str_hook.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_sources/utils/str_hook/str_hook_split.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_sources/utils/string_utils/common.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/lib4aio/lib4aio_c_sources/utils/struct_list/struct_list.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/main/main.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/sources/t_command.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/sources/t_core.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/sources/t_iterator.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/sources/t_message.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/sources/t_tape.c">
+			<Option target="t_machine"/>
+		</Unit>
+		<Unit filename="C:/Users/anton/Desktop/t_machine-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
